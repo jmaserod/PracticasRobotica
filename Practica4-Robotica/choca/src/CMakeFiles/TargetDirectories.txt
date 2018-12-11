@@ -1,0 +1,8 @@
+/home/celia/robocomp/components/Robotica-cefloresa/choca/src/CMakeFiles/install/strip.dir
+/home/celia/robocomp/components/Robotica-cefloresa/choca/src/CMakeFiles/edit_cache.dir
+/home/celia/robocomp/components/Robotica-cefloresa/choca/src/CMakeFiles/choca.dir
+/home/celia/robocomp/components/Robotica-cefloresa/choca/src/CMakeFiles/install.dir
+/home/celia/robocomp/components/Robotica-cefloresa/choca/src/CMakeFiles/rebuild_cache.dir
+/home/celia/robocomp/components/Robotica-cefloresa/choca/src/CMakeFiles/list_install_components.dir
+/home/celia/robocomp/components/Robotica-cefloresa/choca/src/CMakeFiles/install/local.dir
+/home/celia/robocomp/components/Robotica-cefloresa/choca/src/CMakeFiles/choca_autogen.dir
