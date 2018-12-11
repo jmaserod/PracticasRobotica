@@ -1,0 +1,14 @@
+/home/celia/Escritorio/Practica2/choca/CMakeFiles/install/strip.dir
+/home/celia/Escritorio/Practica2/choca/CMakeFiles/install.dir
+/home/celia/Escritorio/Practica2/choca/CMakeFiles/install/local.dir
+/home/celia/Escritorio/Practica2/choca/CMakeFiles/list_install_components.dir
+/home/celia/Escritorio/Practica2/choca/CMakeFiles/edit_cache.dir
+/home/celia/Escritorio/Practica2/choca/CMakeFiles/rebuild_cache.dir
+/home/celia/Escritorio/Practica2/choca/src/CMakeFiles/install/strip.dir
+/home/celia/Escritorio/Practica2/choca/src/CMakeFiles/edit_cache.dir
+/home/celia/Escritorio/Practica2/choca/src/CMakeFiles/choca.dir
+/home/celia/Escritorio/Practica2/choca/src/CMakeFiles/install.dir
+/home/celia/Escritorio/Practica2/choca/src/CMakeFiles/rebuild_cache.dir
+/home/celia/Escritorio/Practica2/choca/src/CMakeFiles/list_install_components.dir
+/home/celia/Escritorio/Practica2/choca/src/CMakeFiles/install/local.dir
+/home/celia/Escritorio/Practica2/choca/src/CMakeFiles/choca_autogen.dir
