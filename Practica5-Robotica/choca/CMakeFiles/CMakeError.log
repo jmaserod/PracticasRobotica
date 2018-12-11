@@ -1,0 +1,498 @@
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_37124/fast"
+/usr/bin/make -f CMakeFiles/cmTC_37124.dir/build.make CMakeFiles/cmTC_37124.dir/build
+make[1]: se entra en el directorio '/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_37124.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_37124.dir/CheckSymbolExists.cxx.o -c /home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_37124.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_37124.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_37124.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_37124/fast' failed
+make: *** [cmTC_37124/fast] Error 2
+
+File /home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_41c80/fast"
+/usr/bin/make -f CMakeFiles/cmTC_41c80.dir/build.make CMakeFiles/cmTC_41c80.dir/build
+make[1]: se entra en el directorio '/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_41c80.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_41c80.dir/CheckSymbolExists.cxx.o -c /home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_41c80.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_41c80.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_41c80.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_41c80/fast' failed
+make: *** [cmTC_41c80/fast] Error 2
+
+File /home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d19b5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d19b5.dir/build.make CMakeFiles/cmTC_d19b5.dir/build
+make[1]: se entra en el directorio '/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d19b5.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_d19b5.dir/CheckSymbolExists.cxx.o -c /home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_d19b5.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d19b5.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_d19b5.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d19b5/fast' failed
+make: *** [cmTC_d19b5/fast] Error 2
+
+File /home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0bece/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0bece.dir/build.make CMakeFiles/cmTC_0bece.dir/build
+make[1]: se entra en el directorio '/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0bece.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0bece.dir/CheckSymbolExists.c.o   -c /home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_0bece
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0bece.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0bece.dir/CheckSymbolExists.c.o  -o cmTC_0bece 
+CMakeFiles/cmTC_0bece.dir/CheckSymbolExists.c.o: En la función `main':
+CheckSymbolExists.c:(.text+0x1b): referencia a `pthread_create' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_0bece.dir/build.make:97: recipe for target 'cmTC_0bece' failed
+make[1]: *** [cmTC_0bece] Error 1
+make[1]: se sale del directorio '/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0bece/fast' failed
+make: *** [cmTC_0bece/fast] Error 2
+
+File /home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d6779/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d6779.dir/build.make CMakeFiles/cmTC_d6779.dir/build
+make[1]: se entra en el directorio '/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d6779.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_d6779.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d6779
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6779.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_d6779.dir/CheckFunctionExists.c.o  -o cmTC_d6779 -lpthreads 
+/usr/bin/x86_64-linux-gnu-ld: no se puede encontrar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d6779.dir/build.make:97: recipe for target 'cmTC_d6779' failed
+make[1]: *** [cmTC_d6779] Error 1
+make[1]: se sale del directorio '/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d6779/fast' failed
+make: *** [cmTC_d6779/fast] Error 2
+
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8c571/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8c571.dir/build.make CMakeFiles/cmTC_8c571.dir/build
+make[1]: se entra en el directorio '/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8c571.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_8c571.dir/CheckSymbolExists.cxx.o -c /home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_8c571.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8c571.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_8c571.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8c571/fast' failed
+make: *** [cmTC_8c571/fast] Error 2
+
+File /home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9a4c5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9a4c5.dir/build.make CMakeFiles/cmTC_9a4c5.dir/build
+make[1]: se entra en el directorio '/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9a4c5.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_9a4c5.dir/CheckSymbolExists.cxx.o -c /home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_9a4c5.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_9a4c5.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_9a4c5.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9a4c5/fast' failed
+make: *** [cmTC_9a4c5/fast] Error 2
+
+File /home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b837d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b837d.dir/build.make CMakeFiles/cmTC_b837d.dir/build
+make[1]: se entra en el directorio '/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b837d.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_b837d.dir/CheckSymbolExists.cxx.o -c /home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_b837d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b837d.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_b837d.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b837d/fast' failed
+make: *** [cmTC_b837d/fast] Error 2
+
+File /home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c7e50/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c7e50.dir/build.make CMakeFiles/cmTC_c7e50.dir/build
+make[1]: se entra en el directorio '/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c7e50.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c7e50.dir/CheckSymbolExists.c.o   -c /home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c7e50
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7e50.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c7e50.dir/CheckSymbolExists.c.o  -o cmTC_c7e50 
+CMakeFiles/cmTC_c7e50.dir/CheckSymbolExists.c.o: En la función `main':
+CheckSymbolExists.c:(.text+0x1b): referencia a `pthread_create' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c7e50.dir/build.make:97: recipe for target 'cmTC_c7e50' failed
+make[1]: *** [cmTC_c7e50] Error 1
+make[1]: se sale del directorio '/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c7e50/fast' failed
+make: *** [cmTC_c7e50/fast] Error 2
+
+File /home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_80b04/fast"
+/usr/bin/make -f CMakeFiles/cmTC_80b04.dir/build.make CMakeFiles/cmTC_80b04.dir/build
+make[1]: se entra en el directorio '/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_80b04.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_80b04.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_80b04
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80b04.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_80b04.dir/CheckFunctionExists.c.o  -o cmTC_80b04 -lpthreads 
+/usr/bin/x86_64-linux-gnu-ld: no se puede encontrar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_80b04.dir/build.make:97: recipe for target 'cmTC_80b04' failed
+make[1]: *** [cmTC_80b04] Error 1
+make[1]: se sale del directorio '/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_80b04/fast' failed
+make: *** [cmTC_80b04/fast] Error 2
+
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1265e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1265e.dir/build.make CMakeFiles/cmTC_1265e.dir/build
+make[1]: se entra en el directorio '/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1265e.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_1265e.dir/CheckSymbolExists.cxx.o -c /home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_1265e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_1265e.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_1265e.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1265e/fast' failed
+make: *** [cmTC_1265e/fast] Error 2
+
+File /home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2f8f1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2f8f1.dir/build.make CMakeFiles/cmTC_2f8f1.dir/build
+make[1]: se entra en el directorio '/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2f8f1.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_2f8f1.dir/CheckSymbolExists.cxx.o -c /home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_2f8f1.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_2f8f1.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_2f8f1.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2f8f1/fast' failed
+make: *** [cmTC_2f8f1/fast] Error 2
+
+File /home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e659d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e659d.dir/build.make CMakeFiles/cmTC_e659d.dir/build
+make[1]: se entra en el directorio '/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e659d.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_e659d.dir/CheckSymbolExists.cxx.o -c /home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_e659d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_e659d.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_e659d.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e659d/fast' failed
+make: *** [cmTC_e659d/fast] Error 2
+
+File /home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c8a7a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c8a7a.dir/build.make CMakeFiles/cmTC_c8a7a.dir/build
+make[1]: se entra en el directorio '/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c8a7a.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c8a7a.dir/CheckSymbolExists.c.o   -c /home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c8a7a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8a7a.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c8a7a.dir/CheckSymbolExists.c.o  -o cmTC_c8a7a 
+CMakeFiles/cmTC_c8a7a.dir/CheckSymbolExists.c.o: En la función `main':
+CheckSymbolExists.c:(.text+0x1b): referencia a `pthread_create' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c8a7a.dir/build.make:97: recipe for target 'cmTC_c8a7a' failed
+make[1]: *** [cmTC_c8a7a] Error 1
+make[1]: se sale del directorio '/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c8a7a/fast' failed
+make: *** [cmTC_c8a7a/fast] Error 2
+
+File /home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d944d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d944d.dir/build.make CMakeFiles/cmTC_d944d.dir/build
+make[1]: se entra en el directorio '/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d944d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_d944d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d944d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d944d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_d944d.dir/CheckFunctionExists.c.o  -o cmTC_d944d -lpthreads 
+/usr/bin/x86_64-linux-gnu-ld: no se puede encontrar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d944d.dir/build.make:97: recipe for target 'cmTC_d944d' failed
+make[1]: *** [cmTC_d944d] Error 1
+make[1]: se sale del directorio '/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d944d/fast' failed
+make: *** [cmTC_d944d/fast] Error 2
+
+
