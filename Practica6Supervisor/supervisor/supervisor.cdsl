@@ -1,0 +1,14 @@
+import "GotoPoint.idsl";
+import "DifferentialRobot.idsl";
+import "GetAprilTags.idsl";
+
+Component supervisor
+{
+	Communications
+	{
+		requires GotoPoint, DifferentialRobot, GetAprilTags;
+	};
+	language Cpp;
+	gui Qt(QWidget);
+};
+
