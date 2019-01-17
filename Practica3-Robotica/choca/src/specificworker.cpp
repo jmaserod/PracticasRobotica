@@ -115,4 +115,5 @@ void SpecificWorker::setPick(const Pick &myPick)
 
     	T.insertarCoordenadas(myPick.x, myPick.z);
 
+
 }

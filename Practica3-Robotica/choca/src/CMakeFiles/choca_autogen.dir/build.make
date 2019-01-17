@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/celia/robocomp/components/Robotica-cefloresa/choca
+CMAKE_SOURCE_DIR = /home/celia/Escritorio/Practica3-Robotica/choca
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/celia/robocomp/components/Robotica-cefloresa/choca
+CMAKE_BINARY_DIR = /home/celia/Escritorio/Practica3-Robotica/choca
 
 # Utility rule file for choca_autogen.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/celia/robocomp/components/Robotica-cefloresa/choca
 include src/CMakeFiles/choca_autogen.dir/progress.make
 
 src/CMakeFiles/choca_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/celia/robocomp/components/Robotica-cefloresa/choca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target choca"
-	cd /home/celia/robocomp/components/Robotica-cefloresa/choca/src && /usr/bin/cmake -E cmake_autogen /home/celia/robocomp/components/Robotica-cefloresa/choca/src/CMakeFiles/choca_autogen.dir ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/celia/Escritorio/Practica3-Robotica/choca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target choca"
+	cd /home/celia/Escritorio/Practica3-Robotica/choca/src && /usr/bin/cmake -E cmake_autogen /home/celia/Escritorio/Practica3-Robotica/choca/src/CMakeFiles/choca_autogen.dir ""
 
 choca_autogen: src/CMakeFiles/choca_autogen
 choca_autogen: src/CMakeFiles/choca_autogen.dir/build.make
@@ -68,10 +68,10 @@ src/CMakeFiles/choca_autogen.dir/build: choca_autogen
 .PHONY : src/CMakeFiles/choca_autogen.dir/build
 
 src/CMakeFiles/choca_autogen.dir/clean:
-	cd /home/celia/robocomp/components/Robotica-cefloresa/choca/src && $(CMAKE_COMMAND) -P CMakeFiles/choca_autogen.dir/cmake_clean.cmake
+	cd /home/celia/Escritorio/Practica3-Robotica/choca/src && $(CMAKE_COMMAND) -P CMakeFiles/choca_autogen.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/choca_autogen.dir/clean
 
 src/CMakeFiles/choca_autogen.dir/depend:
-	cd /home/celia/robocomp/components/Robotica-cefloresa/choca && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/celia/robocomp/components/Robotica-cefloresa/choca /home/celia/robocomp/components/Robotica-cefloresa/choca/src /home/celia/robocomp/components/Robotica-cefloresa/choca /home/celia/robocomp/components/Robotica-cefloresa/choca/src /home/celia/robocomp/components/Robotica-cefloresa/choca/src/CMakeFiles/choca_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/celia/Escritorio/Practica3-Robotica/choca && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/celia/Escritorio/Practica3-Robotica/choca /home/celia/Escritorio/Practica3-Robotica/choca/src /home/celia/Escritorio/Practica3-Robotica/choca /home/celia/Escritorio/Practica3-Robotica/choca/src /home/celia/Escritorio/Practica3-Robotica/choca/src/CMakeFiles/choca_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/choca_autogen.dir/depend
 

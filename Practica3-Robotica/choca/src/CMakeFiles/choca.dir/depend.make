@@ -18,7 +18,6 @@ src/CMakeFiles/choca.dir/Laser.cpp.o: src/Laser.h
 src/CMakeFiles/choca.dir/RCISMousePicker.cpp.o: src/RCISMousePicker.cpp
 src/CMakeFiles/choca.dir/RCISMousePicker.cpp.o: src/RCISMousePicker.h
 
-src/CMakeFiles/choca.dir/choca_autogen/mocs_compilation.cpp.o: /home/celia/robocomp/classes/qlog/qlog.h
 src/CMakeFiles/choca.dir/choca_autogen/mocs_compilation.cpp.o: src/choca_autogen/EWIEGA46WW/moc_genericmonitor.cpp
 src/CMakeFiles/choca.dir/choca_autogen/mocs_compilation.cpp.o: src/choca_autogen/EWIEGA46WW/moc_genericworker.cpp
 src/CMakeFiles/choca.dir/choca_autogen/mocs_compilation.cpp.o: src/choca_autogen/EWIEGA46WW/moc_specificmonitor.cpp
@@ -29,6 +28,7 @@ src/CMakeFiles/choca.dir/choca_autogen/mocs_compilation.cpp.o: src/genericmonito
 src/CMakeFiles/choca.dir/choca_autogen/mocs_compilation.cpp.o: src/genericworker.h
 src/CMakeFiles/choca.dir/choca_autogen/mocs_compilation.cpp.o: src/specificmonitor.h
 src/CMakeFiles/choca.dir/choca_autogen/mocs_compilation.cpp.o: src/specificworker.h
+src/CMakeFiles/choca.dir/choca_autogen/mocs_compilation.cpp.o: /home/celia/robocomp/classes/qlog/qlog.h
 src/CMakeFiles/choca.dir/choca_autogen/mocs_compilation.cpp.o: /opt/robocomp/include/innermodel/innermodel.h
 src/CMakeFiles/choca.dir/choca_autogen/mocs_compilation.cpp.o: /opt/robocomp/include/innermodel/innermodelcamera.h
 src/CMakeFiles/choca.dir/choca_autogen/mocs_compilation.cpp.o: /opt/robocomp/include/innermodel/innermodelconfig.h
@@ -490,13 +490,13 @@ src/CMakeFiles/choca.dir/choca_autogen/mocs_compilation.cpp.o: src/DifferentialR
 src/CMakeFiles/choca.dir/choca_autogen/mocs_compilation.cpp.o: src/GenericBase.h
 src/CMakeFiles/choca.dir/choca_autogen/mocs_compilation.cpp.o: src/Laser.h
 src/CMakeFiles/choca.dir/choca_autogen/mocs_compilation.cpp.o: src/RCISMousePicker.h
-src/CMakeFiles/choca.dir/choca_autogen/mocs_compilation.cpp.o: src/ui_mainUI.h
+src/CMakeFiles/choca.dir/choca_autogen/mocs_compilation.cpp.o: src/choca_autogen/include/ui_mainUI.h
 
-src/CMakeFiles/choca.dir/commonbehaviorI.cpp.o: /home/celia/robocomp/classes/qlog/qlog.h
 src/CMakeFiles/choca.dir/commonbehaviorI.cpp.o: src/commonbehaviorI.cpp
 src/CMakeFiles/choca.dir/commonbehaviorI.cpp.o: src/commonbehaviorI.h
 src/CMakeFiles/choca.dir/commonbehaviorI.cpp.o: src/genericmonitor.h
 src/CMakeFiles/choca.dir/commonbehaviorI.cpp.o: src/genericworker.h
+src/CMakeFiles/choca.dir/commonbehaviorI.cpp.o: /home/celia/robocomp/classes/qlog/qlog.h
 src/CMakeFiles/choca.dir/commonbehaviorI.cpp.o: /usr/include/qt4/Qt3Support/q3cstring.h
 src/CMakeFiles/choca.dir/commonbehaviorI.cpp.o: /usr/include/qt4/Qt3Support/q3valuelist.h
 src/CMakeFiles/choca.dir/commonbehaviorI.cpp.o: /usr/include/qt4/QtCore/QDate
@@ -927,14 +927,14 @@ src/CMakeFiles/choca.dir/commonbehaviorI.cpp.o: src/DifferentialRobot.h
 src/CMakeFiles/choca.dir/commonbehaviorI.cpp.o: src/GenericBase.h
 src/CMakeFiles/choca.dir/commonbehaviorI.cpp.o: src/Laser.h
 src/CMakeFiles/choca.dir/commonbehaviorI.cpp.o: src/RCISMousePicker.h
+src/CMakeFiles/choca.dir/commonbehaviorI.cpp.o: src/choca_autogen/include/ui_mainUI.h
 src/CMakeFiles/choca.dir/commonbehaviorI.cpp.o: src/config.h
-src/CMakeFiles/choca.dir/commonbehaviorI.cpp.o: src/ui_mainUI.h
 
-src/CMakeFiles/choca.dir/genericmonitor.cpp.o: /home/celia/robocomp/classes/qlog/qlog.h
 src/CMakeFiles/choca.dir/genericmonitor.cpp.o: src/config.h
 src/CMakeFiles/choca.dir/genericmonitor.cpp.o: src/genericmonitor.cpp
 src/CMakeFiles/choca.dir/genericmonitor.cpp.o: src/genericmonitor.h
 src/CMakeFiles/choca.dir/genericmonitor.cpp.o: src/genericworker.h
+src/CMakeFiles/choca.dir/genericmonitor.cpp.o: /home/celia/robocomp/classes/qlog/qlog.h
 src/CMakeFiles/choca.dir/genericmonitor.cpp.o: /usr/include/qt4/Qt3Support/q3cstring.h
 src/CMakeFiles/choca.dir/genericmonitor.cpp.o: /usr/include/qt4/Qt3Support/q3valuelist.h
 src/CMakeFiles/choca.dir/genericmonitor.cpp.o: /usr/include/qt4/QtCore/QDate
@@ -1365,12 +1365,12 @@ src/CMakeFiles/choca.dir/genericmonitor.cpp.o: src/DifferentialRobot.h
 src/CMakeFiles/choca.dir/genericmonitor.cpp.o: src/GenericBase.h
 src/CMakeFiles/choca.dir/genericmonitor.cpp.o: src/Laser.h
 src/CMakeFiles/choca.dir/genericmonitor.cpp.o: src/RCISMousePicker.h
-src/CMakeFiles/choca.dir/genericmonitor.cpp.o: src/ui_mainUI.h
+src/CMakeFiles/choca.dir/genericmonitor.cpp.o: src/choca_autogen/include/ui_mainUI.h
 
-src/CMakeFiles/choca.dir/genericworker.cpp.o: /home/celia/robocomp/classes/qlog/qlog.h
 src/CMakeFiles/choca.dir/genericworker.cpp.o: src/config.h
 src/CMakeFiles/choca.dir/genericworker.cpp.o: src/genericworker.cpp
 src/CMakeFiles/choca.dir/genericworker.cpp.o: src/genericworker.h
+src/CMakeFiles/choca.dir/genericworker.cpp.o: /home/celia/robocomp/classes/qlog/qlog.h
 src/CMakeFiles/choca.dir/genericworker.cpp.o: /usr/include/qt4/Qt3Support/q3cstring.h
 src/CMakeFiles/choca.dir/genericworker.cpp.o: /usr/include/qt4/Qt3Support/q3valuelist.h
 src/CMakeFiles/choca.dir/genericworker.cpp.o: /usr/include/qt4/QtCore/QDate
@@ -1801,7 +1801,7 @@ src/CMakeFiles/choca.dir/genericworker.cpp.o: src/DifferentialRobot.h
 src/CMakeFiles/choca.dir/genericworker.cpp.o: src/GenericBase.h
 src/CMakeFiles/choca.dir/genericworker.cpp.o: src/Laser.h
 src/CMakeFiles/choca.dir/genericworker.cpp.o: src/RCISMousePicker.h
-src/CMakeFiles/choca.dir/genericworker.cpp.o: src/ui_mainUI.h
+src/CMakeFiles/choca.dir/genericworker.cpp.o: src/choca_autogen/include/ui_mainUI.h
 
 src/CMakeFiles/choca.dir/home/celia/robocomp/classes/qlog/qlog.cpp.o: /home/celia/robocomp/classes/qlog/qlog.cpp
 src/CMakeFiles/choca.dir/home/celia/robocomp/classes/qlog/qlog.cpp.o: /home/celia/robocomp/classes/qlog/qlog.h
@@ -2154,7 +2154,7 @@ src/CMakeFiles/choca.dir/home/celia/robocomp/classes/rapplication/rapplication.c
 src/CMakeFiles/choca.dir/home/celia/robocomp/classes/rapplication/rapplication.cpp.o: /usr/include/qt4/QtCore/qwaitcondition.h
 src/CMakeFiles/choca.dir/home/celia/robocomp/classes/rapplication/rapplication.cpp.o: /usr/include/qt4/QtCore/qxmlstream.h
 
-src/CMakeFiles/choca.dir/home/celia/robocomp/classes/sigwatch/sigwatch.cpp.o: ../../../classes/sigwatch/sigwatch.h
+src/CMakeFiles/choca.dir/home/celia/robocomp/classes/sigwatch/sigwatch.cpp.o: ../../../robocomp/classes/sigwatch/sigwatch.h
 src/CMakeFiles/choca.dir/home/celia/robocomp/classes/sigwatch/sigwatch.cpp.o: /home/celia/robocomp/classes/sigwatch/sigwatch.cpp
 src/CMakeFiles/choca.dir/home/celia/robocomp/classes/sigwatch/sigwatch.cpp.o: /home/celia/robocomp/classes/sigwatch/sigwatch.h
 src/CMakeFiles/choca.dir/home/celia/robocomp/classes/sigwatch/sigwatch.cpp.o: /usr/include/qt4/Qt3Support/q3cstring.h
@@ -2227,9 +2227,6 @@ src/CMakeFiles/choca.dir/home/celia/robocomp/classes/sigwatch/sigwatch.cpp.o: /u
 src/CMakeFiles/choca.dir/home/celia/robocomp/classes/sigwatch/sigwatch.cpp.o: /usr/include/qt4/QtCore/qvector.h
 src/CMakeFiles/choca.dir/home/celia/robocomp/classes/sigwatch/sigwatch.cpp.o: src/choca_autogen/include/moc_sigwatch.cpp
 
-src/CMakeFiles/choca.dir/main.cpp.o: /home/celia/robocomp/classes/qlog/qlog.h
-src/CMakeFiles/choca.dir/main.cpp.o: /home/celia/robocomp/classes/rapplication/rapplication.h
-src/CMakeFiles/choca.dir/main.cpp.o: /home/celia/robocomp/classes/sigwatch/sigwatch.h
 src/CMakeFiles/choca.dir/main.cpp.o: src/commonbehaviorI.h
 src/CMakeFiles/choca.dir/main.cpp.o: src/config.h
 src/CMakeFiles/choca.dir/main.cpp.o: src/genericmonitor.h
@@ -2237,6 +2234,9 @@ src/CMakeFiles/choca.dir/main.cpp.o: src/genericworker.h
 src/CMakeFiles/choca.dir/main.cpp.o: src/main.cpp
 src/CMakeFiles/choca.dir/main.cpp.o: src/specificmonitor.h
 src/CMakeFiles/choca.dir/main.cpp.o: src/specificworker.h
+src/CMakeFiles/choca.dir/main.cpp.o: /home/celia/robocomp/classes/qlog/qlog.h
+src/CMakeFiles/choca.dir/main.cpp.o: /home/celia/robocomp/classes/rapplication/rapplication.h
+src/CMakeFiles/choca.dir/main.cpp.o: /home/celia/robocomp/classes/sigwatch/sigwatch.h
 src/CMakeFiles/choca.dir/main.cpp.o: /opt/robocomp/include/innermodel/innermodel.h
 src/CMakeFiles/choca.dir/main.cpp.o: /opt/robocomp/include/innermodel/innermodelcamera.h
 src/CMakeFiles/choca.dir/main.cpp.o: /opt/robocomp/include/innermodel/innermodelconfig.h
@@ -2698,13 +2698,13 @@ src/CMakeFiles/choca.dir/main.cpp.o: src/DifferentialRobot.h
 src/CMakeFiles/choca.dir/main.cpp.o: src/GenericBase.h
 src/CMakeFiles/choca.dir/main.cpp.o: src/Laser.h
 src/CMakeFiles/choca.dir/main.cpp.o: src/RCISMousePicker.h
+src/CMakeFiles/choca.dir/main.cpp.o: src/choca_autogen/include/ui_mainUI.h
 src/CMakeFiles/choca.dir/main.cpp.o: src/rcismousepickerI.h
-src/CMakeFiles/choca.dir/main.cpp.o: src/ui_mainUI.h
 
-src/CMakeFiles/choca.dir/rcismousepickerI.cpp.o: /home/celia/robocomp/classes/qlog/qlog.h
 src/CMakeFiles/choca.dir/rcismousepickerI.cpp.o: src/genericworker.h
 src/CMakeFiles/choca.dir/rcismousepickerI.cpp.o: src/rcismousepickerI.cpp
 src/CMakeFiles/choca.dir/rcismousepickerI.cpp.o: src/rcismousepickerI.h
+src/CMakeFiles/choca.dir/rcismousepickerI.cpp.o: /home/celia/robocomp/classes/qlog/qlog.h
 src/CMakeFiles/choca.dir/rcismousepickerI.cpp.o: /usr/include/qt4/Qt3Support/q3cstring.h
 src/CMakeFiles/choca.dir/rcismousepickerI.cpp.o: /usr/include/qt4/Qt3Support/q3valuelist.h
 src/CMakeFiles/choca.dir/rcismousepickerI.cpp.o: /usr/include/qt4/QtCore/QDate
@@ -3135,15 +3135,15 @@ src/CMakeFiles/choca.dir/rcismousepickerI.cpp.o: src/DifferentialRobot.h
 src/CMakeFiles/choca.dir/rcismousepickerI.cpp.o: src/GenericBase.h
 src/CMakeFiles/choca.dir/rcismousepickerI.cpp.o: src/Laser.h
 src/CMakeFiles/choca.dir/rcismousepickerI.cpp.o: src/RCISMousePicker.h
+src/CMakeFiles/choca.dir/rcismousepickerI.cpp.o: src/choca_autogen/include/ui_mainUI.h
 src/CMakeFiles/choca.dir/rcismousepickerI.cpp.o: src/config.h
-src/CMakeFiles/choca.dir/rcismousepickerI.cpp.o: src/ui_mainUI.h
 
-src/CMakeFiles/choca.dir/specificmonitor.cpp.o: /home/celia/robocomp/classes/qlog/qlog.h
 src/CMakeFiles/choca.dir/specificmonitor.cpp.o: src/config.h
 src/CMakeFiles/choca.dir/specificmonitor.cpp.o: src/genericmonitor.h
 src/CMakeFiles/choca.dir/specificmonitor.cpp.o: src/genericworker.h
 src/CMakeFiles/choca.dir/specificmonitor.cpp.o: src/specificmonitor.cpp
 src/CMakeFiles/choca.dir/specificmonitor.cpp.o: src/specificmonitor.h
+src/CMakeFiles/choca.dir/specificmonitor.cpp.o: /home/celia/robocomp/classes/qlog/qlog.h
 src/CMakeFiles/choca.dir/specificmonitor.cpp.o: /usr/include/qt4/Qt3Support/q3cstring.h
 src/CMakeFiles/choca.dir/specificmonitor.cpp.o: /usr/include/qt4/Qt3Support/q3valuelist.h
 src/CMakeFiles/choca.dir/specificmonitor.cpp.o: /usr/include/qt4/QtCore/QDate
@@ -3574,11 +3574,11 @@ src/CMakeFiles/choca.dir/specificmonitor.cpp.o: src/DifferentialRobot.h
 src/CMakeFiles/choca.dir/specificmonitor.cpp.o: src/GenericBase.h
 src/CMakeFiles/choca.dir/specificmonitor.cpp.o: src/Laser.h
 src/CMakeFiles/choca.dir/specificmonitor.cpp.o: src/RCISMousePicker.h
-src/CMakeFiles/choca.dir/specificmonitor.cpp.o: src/ui_mainUI.h
+src/CMakeFiles/choca.dir/specificmonitor.cpp.o: src/choca_autogen/include/ui_mainUI.h
 
-src/CMakeFiles/choca.dir/specificworker.cpp.o: /home/celia/robocomp/classes/qlog/qlog.h
 src/CMakeFiles/choca.dir/specificworker.cpp.o: src/specificworker.cpp
 src/CMakeFiles/choca.dir/specificworker.cpp.o: src/specificworker.h
+src/CMakeFiles/choca.dir/specificworker.cpp.o: /home/celia/robocomp/classes/qlog/qlog.h
 src/CMakeFiles/choca.dir/specificworker.cpp.o: /opt/robocomp/include/innermodel/innermodel.h
 src/CMakeFiles/choca.dir/specificworker.cpp.o: /opt/robocomp/include/innermodel/innermodelcamera.h
 src/CMakeFiles/choca.dir/specificworker.cpp.o: /opt/robocomp/include/innermodel/innermodelconfig.h
@@ -4040,7 +4040,7 @@ src/CMakeFiles/choca.dir/specificworker.cpp.o: src/DifferentialRobot.h
 src/CMakeFiles/choca.dir/specificworker.cpp.o: src/GenericBase.h
 src/CMakeFiles/choca.dir/specificworker.cpp.o: src/Laser.h
 src/CMakeFiles/choca.dir/specificworker.cpp.o: src/RCISMousePicker.h
+src/CMakeFiles/choca.dir/specificworker.cpp.o: src/choca_autogen/include/ui_mainUI.h
 src/CMakeFiles/choca.dir/specificworker.cpp.o: src/config.h
 src/CMakeFiles/choca.dir/specificworker.cpp.o: src/genericworker.h
-src/CMakeFiles/choca.dir/specificworker.cpp.o: src/ui_mainUI.h
 

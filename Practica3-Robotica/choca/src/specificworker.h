@@ -63,7 +63,7 @@ private:
 		    QMutexLocker lm(&mutex);
 			x = coordenadaX;
 			z = coordenadaZ;
-			activo = false;
+			activo = true;
 			return true;
 		}
 
